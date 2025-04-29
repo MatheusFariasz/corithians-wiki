@@ -6,4 +6,6 @@ export const Card = styled.li`
   margin-bottom: 0.75rem;
   border-radius: 8px;
   text-align: center;
+  width: 20rem;
+  height: auto;
 `;
