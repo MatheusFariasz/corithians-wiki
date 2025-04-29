@@ -17,16 +17,6 @@ export const List = styled.ul`
   padding: 0;
 `;
 
-export const Item = styled.li`
-  background: #1c1c1c;
-  padding: 1rem;
-  margin-bottom: 0.75rem;
-  border-radius: 8px;
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-`;
-
 export const TrophyImage = styled.img`
   width: 48px;
   height: 48px;

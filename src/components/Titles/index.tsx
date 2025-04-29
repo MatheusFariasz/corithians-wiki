@@ -1,23 +1,26 @@
+//hooks
 import { useTitles } from "../../hooks/useTitles/useTitles";
-import { Title, Container, List, Item, TrophyImage } from "./style";
+
+//styles
+import { Title, Container, List, TrophyImage } from "./style";
+
+//components
+import { CardItem } from "../UI/Card/index";
 
 export default function Titles() {
   const { titles, isLoading } = useTitles();
 
-  if (isLoading) {
-    return <p>Carregando Titulos...</p>;
-  }
+  if (isLoading) return <p>Carregando Títulos...</p>;
 
   return (
     <Container>
-      <Title>Titulos do Corinthians</Title>
-
+      <Title>Títulos do Corinthians</Title>
       <List>
         {titles.map((title) => (
-          <Item key={title.id}>
-            {title.name}
-            <TrophyImage src={title.img} />
-          </Item>
+          <CardItem key={title.id}>
+              <Title>{title.name}</Title>
+              <TrophyImage src={title.img} />
+          </CardItem>
         ))}
       </List>
     </Container>

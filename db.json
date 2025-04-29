@@ -6,8 +6,8 @@
     { "id": 4, "name": "Ángel Romero"}
   ],
   "titles": [
-    { "id": 1, "name": "Mundial de Clubes", "img": "/assets/icons8-trophy-96.png"},
-    { "id": 2, "name": "Mundial de Clubes", "img": "/assets/icons8-trophy-96.png"},
-    { "id": 3, "name": "Mundial de Clubes", "img": "/assets/icons8-trophy-96.png"}
+    { "id": 1, "name": "Mundial de Clubes 2000", "img": "/assets/icons8-trophy-96.png"},
+    { "id": 2, "name": "Mundial de Clubes 2012", "img": "/assets/icons8-trophy-96.png"},
+    { "id": 3, "name": "Copa Libertadores 2012", "img": "/assets/icons8-trophy-96.png"}
   ]
 }

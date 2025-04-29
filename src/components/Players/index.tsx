@@ -1,22 +1,23 @@
+//hooks
 import { usePlayers } from "../../hooks/usePlayers/usePlayers";
-import { Title, Container, List, Item } from "./style";
+
+//styles
+import { Title, Container, List } from "./style";
+
+//components
+import { CardItem } from "../UI/Card/index"
 
 export default function Teste() {
   const { players, isLoading } = usePlayers();
 
-  if (isLoading) {
-    return <p>Carregando jogadores...</p>;
-  }
+  if (isLoading) return <p>Carregando jogadores...</p>;
 
   return (
     <Container>
       <Title>Jogadores do Corinthians</Title>
-
       <List>
         {players.map((player) => (
-          <Item key={player.id}>
-            {player.name}
-          </Item>
+          <CardItem key={player.id}><Title>{player.name}</Title></CardItem>
         ))}
       </List>
     </Container>

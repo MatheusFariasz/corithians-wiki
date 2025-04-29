@@ -17,11 +17,3 @@ export const List = styled.ul`
   list-style: none;
   padding: 0;
 `;
-
-export const Item = styled.li`
-  background: #1c1c1c;
-  padding: 1rem;
-  margin-bottom: 0.75rem;
-  border-radius: 8px;
-  text-align: center;
-`;
