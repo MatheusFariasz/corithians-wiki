@@ -2,7 +2,8 @@
   "players": [
     { "id": 1, "name": "Yuri Alberto" },
     { "id": 2, "name": "Memphis Depay" },
-    { "id": 3, "name": "Hugo Souza" }
+    { "id": 3, "name": "Hugo Souza" },
+    { "id": 4, "name": "Ángel Romero"}
   ],
   "titles": [
     { "id": 1, "name": "Mundial de Clubes", "img": "/assets/icons8-trophy-96.png"},
