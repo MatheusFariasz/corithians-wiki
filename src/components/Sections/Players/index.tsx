@@ -1,7 +1,7 @@
 import { usePlayers } from "../../../hooks/usePlayers/usePlayers";
 import { Container, Title, List, Card, PlayerImage, PlayerName, PlayerPosition, BackButton } from "./style";
 
-export default function Teste() {
+export default function Players() {
   const { players, isLoading } = usePlayers();
 
   if (isLoading) return <Container><p>Carregando jogadores...</p></Container>;
