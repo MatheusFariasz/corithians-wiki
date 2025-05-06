@@ -1,13 +1,114 @@
 {
   "players": [
-    { "id": 1, "name": "Yuri Alberto" },
-    { "id": 2, "name": "Memphis Depay" },
-    { "id": 3, "name": "Hugo Souza" },
-    { "id": 4, "name": "Ángel Romero"}
+    {
+      "id": 1,
+      "name": "Yuri Alberto",
+      "image": "/assets/players/yuri-alberto.png",
+      "position": "Atacante"
+    },
+    {
+      "id": 2,
+      "name": "Memphis Depay",
+      "image": "/assets/players/memphis-depay.png",
+      "position": "Atacante"
+    },
+    {
+      "id": 3,
+      "name": "Hugo Souza",
+      "image": "/assets/players/hugo-souza.png",
+      "position": "Goleiro"
+    },
+    {
+      "id": 4,
+      "name": "Ángel Romero",
+      "image": "/assets/players/angel-romero.png",
+      "position": "Atacante"
+    },
+    {
+      "id": 5,
+      "name": "Rodrigo Garro",
+      "image": "/assets/players/rodrigo-garro.png",
+      "position": "Meia"
+    },
+    {
+      "id": 6,
+      "name": "Talles Magno",
+      "image": "/assets/players/talles-magno.png",
+      "position": "Atacante"
+    },
+    {
+      "id": 7,
+      "name": "Igor Coronado",
+      "image": "/assets/players/igor-coronado.png",
+      "position": "Meia"
+    },
+    {
+      "id": 8,
+      "name": "André Carrilo",
+      "image": "/assets/players/andré-carrilo.png",
+      "position": "Meia"
+    }
   ],
   "titles": [
-    { "id": 1, "name": "Mundial de Clubes 2000", "img": "/assets/icons8-trophy-96.png"},
-    { "id": 2, "name": "Mundial de Clubes 2012", "img": "/assets/icons8-trophy-96.png"},
-    { "id": 3, "name": "Copa Libertadores 2012", "img": "/assets/icons8-trophy-96.png"}
+    {
+      "id": 1,
+      "name": "Mundial de Clubes 2000",
+      "img": "/assets/icons/icons8-trophy-96.png"
+    },
+    {
+      "id": 2,
+      "name": "Mundial de Clubes 2012",
+      "img": "/assets/icons/icons8-trophy-96.png"
+    },
+    {
+      "id": 3,
+      "name": "Copa Libertadores 2012",
+      "img": "/assets/icons/icons8-trophy-96.png"
+    },
+    {
+      "id": 4,
+      "name": "Recopa Sul-Americana 2013",
+      "img": "/assets/icons/icons8-trophy-96.png"
+    },
+    {
+      "id": 5,
+      "name": "Campeonato Brasileiro 1990",
+      "img": "/assets/icons/icons8-trophy-96.png"
+    },
+    {
+      "id": 6,
+      "name": "Campeonato Brasileiro 1998",
+      "img": "/assets/icons/icons8-trophy-96.png"
+    },
+    {
+      "id": 7,
+      "name": "Campeonato Brasileiro 1999",
+      "img": "/assets/icons/icons8-trophy-96.png"
+    },
+    {
+      "id": 8,
+      "name": "Campeonato Brasileiro 2011",
+      "img": "/assets/icons/icons8-trophy-96.png"
+    },
+    {
+      "id": 9,
+      "name": "Campeonato Brasileiro 2015",
+      "img": "/assets/icons/icons8-trophy-96.png"
+    },
+    {
+      "id": 10,
+      "name": "Copa do Brasil 2009",
+      "img": "/assets/icons/icons8-trophy-96.png"
+    },
+    {
+      "id": 11,
+      "name": "Campeonato Paulista 2017",
+      "img": "/assets/icons/icons8-trophy-96.png"
+    },
+    {
+      "id": 12,
+      "name": "Campeonato Paulista 2025",
+      "img": "/assets/icons/icons8-trophy-96.png"
+    }
   ]
 }
